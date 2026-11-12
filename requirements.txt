@@ -1,0 +1,10 @@
+# The saved models were exported with Keras 2.12 (TF SavedModel directories).
+# Keras 3 (TensorFlow >= 2.16) cannot load them with tf.keras.models.load_model,
+# so stay on TensorFlow 2.12–2.15 (Python 3.9–3.11).
+tensorflow>=2.12,<2.16
+streamlit>=1.25
+pandas>=1.5
+numpy>=1.23,<2
+matplotlib>=3.6
+seaborn>=0.12
+scikit-learn>=1.2
